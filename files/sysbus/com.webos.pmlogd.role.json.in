@@ -6,7 +6,7 @@
 	[
 		{
 			"service":"com.webos.pmlogd",
-			"outbound":["com.webos.service.config", "com.webos.settingsservice"]
+			"outbound":["com.webos.service.config", "com.webos.settingsservice", "com.webos.rdxd"]
 		}
 	]
 }
