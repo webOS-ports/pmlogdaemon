@@ -2789,7 +2789,7 @@ static void InitSettings(void)
 	g_useFullTimeStamps = 0;
 	g_timeStampFracSecDigits = 0;
 
-	strncpy(g_pathLog, _PATH_LOG, sizeof(g_pathLog));
+	strncpy(g_pathLog, "/run/systemd/journal/syslog", sizeof(g_pathLog));
 
 	g_numOutputs = 0;
 	g_numContexts = 0;
